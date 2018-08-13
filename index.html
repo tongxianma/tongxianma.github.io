@@ -4,6 +4,20 @@
     <style type="text/css">
       div{margin-top:250px;text-align:center;font-size:3vw;}
     </style>
+  function IsPC(){  
+    var userAgentInfo = navigator.userAgent;
+    var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+    var flag = true;  
+    for (var v = 0; v < Agents.length; v++) {  
+      if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+    }  
+    return flag;  
+  }
+    
+  if (!/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+      //alert(navigator.userAgent);  
+      window.location.href ="pc.html";
+  } 
   </head>
   <body>
     <div>
