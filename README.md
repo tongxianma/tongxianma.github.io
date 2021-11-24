@@ -1,1 +1,5 @@
-#Demo
+- 👋 Hi, I’m @tongxianma
+- 👀 I’m interested in Psychology and Code
+- 🌱 I’m currently learning Psychology
+- 💞️ I’m looking to collaborate on Science
+- 📫 never reach me
